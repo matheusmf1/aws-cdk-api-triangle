@@ -16,6 +16,9 @@
 * `npx aws-cdk destroy` --> To destroy your deployed stack
   
 
+## Application Architecture
+![Alt text](images/api-triangle.drawio.png "API Architecture")
+
 ## API Endpoints
 * When you deploy your stack, the URL generated from API Gateway will be shown as output.
 * To access the API-Resource, just add in the end of the URL the path for the resource `/triangle-api`
