@@ -1,4 +1,4 @@
-const triangle_classification = require( '../resources/lambda_triangle' );
+const triangle_classification = require( '../resources/lambda_triangle/lambda_triangle' );
 
 test('Triangle Classification Equilateral', () => {
   const result = triangle_classification.checkTriangle( 6, 6, 6 );
